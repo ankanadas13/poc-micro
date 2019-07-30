@@ -5,11 +5,11 @@
 
 // Entry point into microservice-pipelines
 jenkinsJob.call() 
- /*node {
+ node {
         stage("Package artifact") {
             sh "mvn package"
         }
         stage("Backend tests"){
             sh "mvn test"
         }
-    }*/
+    }
